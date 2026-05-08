@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "划词翻译",
+  "version": "1.1",
+  "description": "选中网页上的文字，点击图标，自动翻译（支持长文本，使用百度翻译）",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "翻译选中的文字"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://fanyi-api.baidu.com/*"]
+}
